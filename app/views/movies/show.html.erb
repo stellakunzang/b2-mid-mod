@@ -3,5 +3,7 @@
 <p>Genre: <%= @movie.genre %></p>
 
 <% @movie.actors_by_age.each do |actor| %>
-  <%= actor.name %>
-<% end %> 
+  <p>* <%= actor.name %></p>
+<% end %>
+
+<p> Average Age = <%= @movie.actors_average_age %></p>
