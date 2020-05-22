@@ -1,2 +1,7 @@
 <h2>Name: <%= @actor.name %></h2>
 <p>Age: <%= @actor.age %></p>
+
+<h3>Actors <%= @actor.name %> Has Worked With: <h3>
+<% @actor.costars.each do |costar| %>
+  <%= costar.name %>
+<% end %> 
