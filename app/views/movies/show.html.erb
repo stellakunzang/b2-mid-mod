@@ -1,3 +1,4 @@
+
 <h2>Title: <%= @movie.title %></h2>
 <p>Year Released: <%= @movie.year %></p>
 <p>Genre: <%= @movie.genre %></p>
@@ -8,7 +9,7 @@
 
 <p> Average Age = <%= @movie.actors_average_age %></p>
 
-<p>Add New Actor:</p>
+<p>Add New Actor: </p>
 <%= form_tag("/movies/#{@movie.id}", method: :post) do %>
   <%= label_tag "Name: " %>
   <%= text_field_tag :name %>
