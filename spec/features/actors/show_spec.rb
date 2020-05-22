@@ -15,7 +15,7 @@ RSpec.describe "actor show page" do
     expect(page).to have_content(actor1.age)
   end
 
-  xit "should display unique list of all actors they've worked with" do
+  it "should display unique list of all actors they've worked with" do
     studio1 = Studio.create(name: "The Movie Studio", location: "The Moon")
     movie1 = Movie.create(title: "A Movie", year: "1999", genre: "Spooky", studio_id: "#{studio1.id}")
 
