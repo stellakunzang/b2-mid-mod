@@ -17,7 +17,7 @@ RSpec.describe Actor do
       MovieActor.create(movie_id: "#{movie1.id}", actor_id: "#{actor1.id}")
       MovieActor.create(movie_id: "#{movie1.id}", actor_id: "#{actor2.id}")
 
-      expect(actor1.costars).to eq(actor2)
+      expect(actor1.costars).to eq([actor2])
     end
   end
 end
