@@ -344,12 +344,13 @@
           null
         ]
       },
-      "/Users/skb/turing/2module/challenges/b2-mid-mod/app/controllers/studios_controller.rb": {
+      "/Users/skb/turing/2module/challenges/b2-mid-mod/app/controllers/movies_controller.rb": {
         "lines": [
           1,
           null,
           1,
-          2,
+          1,
+          null,
           null,
           null
         ]
@@ -360,8 +361,18 @@
           1,
           null
         ]
+      },
+      "/Users/skb/turing/2module/challenges/b2-mid-mod/app/controllers/studios_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1590164762
+    "timestamp": 1590165033
   }
 }
