@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+studio1 = Studio.create(name: "The Movie Studio", location: "The Moon")
+studio2 = Studio.create(name: "Another Movie Studio", location: "Mars")
