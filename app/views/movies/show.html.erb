@@ -2,6 +2,6 @@
 <p>Year Released: <%= @movie.year %></p>
 <p>Genre: <%= @movie.genre %></p>
 
-<% @movie.actors.each do |actor| %>
+<% @movie.actors_by_age.each do |actor| %>
   <%= actor.name %>
 <% end %> 
