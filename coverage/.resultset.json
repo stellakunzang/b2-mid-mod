@@ -305,8 +305,24 @@
           1,
           null
         ]
+      },
+      "/Users/skb/turing/2module/challenges/b2-mid-mod/app/controllers/studios_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/skb/turing/2module/challenges/b2-mid-mod/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1590163496
+    "timestamp": 1590163572
   }
 }
