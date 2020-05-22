@@ -8,3 +8,6 @@
 
 studio1 = Studio.create(name: "The Movie Studio", location: "The Moon")
 studio2 = Studio.create(name: "Another Movie Studio", location: "Mars")
+
+movie1 = Movie.create(title: "A Movie", year: "1999", genre: "Spooky", studio_id: "#{studio1.id}")
+movie2 = Movie.create(title: "Movie: Sequel", year: "2002", genre: "Spooky", studio_id: "#{studio1.id}")
