@@ -64,17 +64,9 @@ RSpec.describe "movie show page" do
 
     fill_in :name, with: "#{actor3.name}"
 
+    click_on "Add Actor to Movie"
+
     expect(current_path).to eq("/movies/#{movie1.id}")
     expect(page).to have_content(actor3.name)
   end
 end
-
-
-# Story 3
-# As a visitor,
-# When I visit a movie show page,
-# I see a form for an actors name
-# and when I fill in the form with an existing actor's name
-# I am redirected back to that movie's show page
-# And I see the actor's name listed
-# (This should not break story 3, You do not have to test for a sad path)
